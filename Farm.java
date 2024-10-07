@@ -8,6 +8,10 @@ public class Farm {
         animals = new ArrayList<>();
     }
 
+    public List<Animal> getAnimals() {
+        return animals;
+    }
+
     public void addAnimal(Animal animal) {
         animals.add(animal);
     }
@@ -28,4 +32,6 @@ public class Farm {
             }
         }
     }
+
+
 }
